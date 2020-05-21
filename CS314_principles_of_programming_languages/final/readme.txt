@@ -1,0 +1,1 @@
+My contribution was Blackjack. At the time I had future plans of using this base code in an unsupervising learning task. My hope was to see an algorithm develop similar techniques to what real blackjack players do to gain the system.
