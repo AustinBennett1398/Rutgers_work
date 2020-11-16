@@ -1,0 +1,10 @@
+I have completed the extra credit portion of the program, implementing LRU policy for direct, assoc and assoc:n cases.
+
+The main data structures being used in this program are as follows:
+Direct 		   - Array
+Fully associative - Array
+Set associative   - Matrix
+For direct we utilize an array because each set should have only one block. A similar notion is used for our implementation of fully associative as we are implementing a cache with one set with n lines where n is some arbitrary number > 1.
+I simply alter my data structure to an array of arrays or a matrix for set associative caches because we now have multiple sets with multiple lines.
+
+While testing my program with the various associativity policies I discovered a few common themes amongst the prefetched results compared to the non-prefetched results. Firstly, it is important to take note of how similar the addresses being read in from our trace files were. Without even taking a look at the results we can conclude that our cache should have utilized spacial locality extremely well when looking at the with-prefetched results. When prefetching we expect to have more memory reads because we bring in an additional unit into the cache from memory whenever we experience a cache miss. However due to these extra memory reads we expect to exploit spacial locality even more and thus have more cache hits and less cache misses. Now, using this background information and taking a look at the compared results we see that our predictions were absolutely correct.

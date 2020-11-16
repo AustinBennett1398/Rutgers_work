@@ -1,0 +1,24 @@
+INPUTVAR 3 X F MD
+OUTPUTVAR 2 EK O
+NOT X a
+NOT F b
+NOT MD c
+AND a F d
+AND d MD e
+AND X F f
+AND f c g
+AND X M h
+AND h b i
+AND f MD j
+AND a b k
+AND k MD l
+AND d c m
+AND m F n
+AND X b o
+AND o c p
+OR  e g q
+OR  q i r
+OR  r j O
+OR  j l s
+OR  s n t
+OR  t p EK

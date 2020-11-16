@@ -1,0 +1,10 @@
+INPUTVAR 3 IN1 IN2 IN3
+OUTPUTVAR 2 OUT1 OUT2
+NOT IN1 temp1
+AND temp4 IN3 temp5
+AND IN1 temp4 temp6
+NOT IN2 temp3
+NOT IN3 temp2
+OR temp4 temp5 OUT2
+OR temp3 temp2 OUT1
+AND temp1 IN2 temp4
