@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:38baff5ce91bff5f23af62c8d8058e30e23e8d6048402e6d7d576691c9d87175
-size 233
+My contribution was Blackjack. At the time I had future plans of using this base code in an unsupervising learning task. My hope was to see an algorithm develop similar techniques to what real blackjack players do to gain the system.
