@@ -1,10 +1,3 @@
-i	-1000
-i	1000
-i	-500
-i	500
-i	-250
-i	250
-i	-125
-i	-1000
-s	-100
-s	-125
+version https://git-lfs.github.com/spec/v1
+oid sha256:eba07ca9643a649f03aa0c10791d8444af9f79b08da187b1b7788e3273a861e4
+size 70

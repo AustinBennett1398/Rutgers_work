@@ -1,1 +1,3 @@
-not-magic
+version https://git-lfs.github.com/spec/v1
+oid sha256:dda5c4ef0879696bc9c669a1152c7f8eabad02a96fe3e9fe8a88966398f0f71e
+size 10
